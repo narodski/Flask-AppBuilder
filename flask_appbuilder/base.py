@@ -20,6 +20,7 @@ from .const import (
 from .filters import TemplateFilters
 from .menu import Menu, MenuApiManager
 from .views import IndexView, UtilView
+from flask_appbuilder.basemanager import BaseManager
 
 if TYPE_CHECKING:
     from flask_appbuilder.basemanager import BaseManager
